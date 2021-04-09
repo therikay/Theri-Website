@@ -1,14 +1,54 @@
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;*/
 
-body {
-  display: block;
+/* CSS HEX 
+--british-racing-green: #003e1fff;
+--russian-violet: #420039ff;
+--mountbatten-pink: #9e7b9bff;
+--champagne: #eee0cbff;
+--lavender-blush: #fdecefff;*/
+
+
+:root{
+--lavender-blush: #fdecefff;
+--british-racing-green: #003e1fff;
+--russian-violet: #420039ff;
+--mountbatten-pink: #9e7b9bff;
+--champagne: #eee0cbff;
 }
 
+
+body {
+  display: block;
+  background-color: var(--lavender-blush);
+  height: 100%;
+  margin:0;
+
+}
+
+
 h1 {
+    display:flex;
+   justify-content: center;
   font-family: "Montserrat", sans-serif;
+}
+h2{
+     display:flex;
+   justify-content: center;
+ font-family: 'Raleway', sans-serif;
 }
 
 p {
   font-family: "Raleway", sans-serif;
+}
+
+.footer{
+    background-color: var(--british-racing-green);
+    color:var(--lavender-blush)
+  
+};
+
+a{
+    color:var(--lavender-blush)
+
 }
