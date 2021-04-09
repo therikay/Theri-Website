@@ -1,0 +1,14 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+body {
+  display: block;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
