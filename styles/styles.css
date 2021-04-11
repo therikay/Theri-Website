@@ -27,8 +27,27 @@ body {
 }
 
 
-h1 {
-    display:flex;
+.hero{
+    background-color: var(--mountbatten-pink);
+    text-align: center;
+    padding-top:75px;
+   padding-bottom: 75px;
+   margin-bottom: 75px;
+   color: var(--lavender-blush);
+}
+
+
+.contact-button{
+padding: 15px 10px;
+background-color: var(--british-racing-green);
+border-radius: 5px;
+color: var(--lavender-blush);
+margin:20px 30px 20px 30px;
+text-decoration: none;
+}
+
+h1 {font-size: 96px;
+        display:flex;
    justify-content: center;
   font-family: "Montserrat", sans-serif;
 }
@@ -36,6 +55,7 @@ h2{
      display:flex;
    justify-content: center;
  font-family: 'Raleway', sans-serif;
+ margin-bottom: 20px;
 }
 
 p {
@@ -48,7 +68,12 @@ p {
   
 };
 
-a{
+a.fab {
     color:var(--lavender-blush)
 
+}
+
+.row{
+    margin-bottom: 40px;
+    margin-top:40px;
 }
