@@ -8,126 +8,129 @@ font-family: 'Raleway', sans-serif;*/
 --champagne: #eee0cbff;
 --lavender-blush: #fdecefff;*/
 
-
-:root{
---lavender-blush: #fdecefff;
---british-racing-green: #003e1fff;
---russian-violet: #420039ff;
---mountbatten-pink: #9e7b9bff;
---champagne: #eee0cbff;
+:root {
+  --lavender-blush: #fdecefff;
+  --british-racing-green: #003e1fff;
+  --russian-violet: #420039ff;
+  --mountbatten-pink: #9e7b9bff;
+  --champagne: #eee0cbff;
 }
-
 
 body {
   display: block;
   height: 100%;
-  margin:0;
-
+  margin: 0;
 }
 
-
-.hero{
-    background-color: var(--lavender-blush);
-    text-align: center;
-    padding-top:75px;
-   padding-bottom: 75px;
-   margin-bottom: 75px;
-   color: var(--british-racing-green);
+.hero {
+  background-color: var(--lavender-blush);
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 120px;
+  margin-bottom: 10;
+  color: var(--british-racing-green);
 }
 
-
-.contact-button{
-padding: 15px 10px;
-background-color: var(--british-racing-green);
-border-radius: 5px;
-color: var(--lavender-blush);
-margin:40px;
-text-decoration: none;
-
+.contact-button {
+  padding: 15px 10px;
+  background-color: var(--british-racing-green);
+  border-radius: 5px;
+  color: var(--lavender-blush);
+  margin: 20px;
+  text-decoration: none;
 }
 
-.portfolio-button{
-    padding: 15px 10px;
-    padding: 15px 10px;
-background-color: var(--british-racing-green);
-border-radius: 5px;
-color: var(--lavender-blush);
-text-decoration: none;
+.portfolio-button {
+  padding: 15px 10px;
+  padding: 15px 10px;
+  background-color: var(--british-racing-green);
+  border-radius: 5px;
+  color: var(--lavender-blush);
+  text-decoration: none;
 }
 
-.project-description{
-    padding:20px 30px;
+.project-description {
+  padding: 30px 30px;
+  margin: 15px;
 }
 
-
-
-.contact-button:hover{
-    color:white;
+.contact-button:hover {
+  color: white;
 }
 
-h1 {font-size: 96px;
-        display:flex;
-   justify-content: center;
+h1 {
+  font-size: 96px;
+  display: flex;
+  justify-content: center;
   font-family: "Montserrat", sans-serif;
 }
-h2 {display:flex;
-   justify-content: center;
- font-family: 'Raleway', sans-serif; 
- font-size: 24px;
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
 }
-h3{
-     font-family: "Montserrat", sans-serif;
-     margin-bottom: 20px;
-     font-size: 48px;
-     font-weight: bolder;
+h3 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: bolder;
 }
 
 p {
   font-family: "Raleway", sans-serif;
-  line-height:1.6;
-  
+  line-height: 1.6;
 }
 
-.footer{
-    background-color: var(--british-racing-green);
-    color:var(--lavender-blush)
-  
-};
+.footer {
+  background-color: var(--british-racing-green);
+  color: var(--lavender-blush);
+}
 
 a.fab {
-    color:var(--lavender-blush)
+  color: var(--lavender-blush);
+}
+
+.row {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+img {
+  border-radius: 35px;
+  border-width: 10px;
+  padding:25px;
+  margin: 35px;
+  max-width: 450px;
+  
+}
+
+.bio{
+  text-align: center;
+  margin: 15px;
+ 
+}
+
+.about{
+background-color: var(--lavender-blush);
+padding: 15px;
 
 }
 
-.row{
-    margin-bottom: 40px;
-    margin-top:40px;
-}
 
-
-
-img{
-    border-radius: 5px;
-    border-width: 20px;
-
-}
-
-@media(max-width:960px){
-   .project-description{
-
-   padding: 10px;
-   text-align: center;
-
-}
-.portfolio-button{
+@media (max-width: 600px) {
+  .project-description {
+    padding: 10px;
+    text-align: center;
+  }
+  .portfolio-button {
     display: block;
-}
-h1{
+  }
+  h1 {
     font-size: 60px;
-}
-h3{
+  }
+  h3 {
     font-size: 28px;
+  }
+  
 }
-}
-
-
